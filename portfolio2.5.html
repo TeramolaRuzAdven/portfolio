@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap"
+  rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio2.5css.css">
+</head>
+<body>
+    <!--header__section-->
+    <section id='header__section'>
+    <header>
+        <div class='logo'><a href="index.html" class="nav-logo">Teramola</a></div>
+     
+    <nav class="nav-bar nav-container">
+        <ul class="desktop-menu">
+        <li class="menu"><a href="#home" id="home" target="_blank">Home</a></li>
+        <li class="menu"><a href="#services" id="services" target="_blank">Services</a></li>
+        <li class="menu"><a href="#details" id="contacts" target="_blank">Contacts</a></li>
+        <li class="menu"><a href="#work" id="project" target="_blank">Project</a></li>
+        <li class="menu"><a href="#Download-cv" id="download-cv" target="download">Download-cv</a></li>
+    </ul>
+    </nav>
+    
+    <!---Mobile Nav--->
+    
+    <nav class="mobile__menu" id="mobile">    
+    <ul class="mobile__menu__ul">        
+    <li class="mobile__menu"><a href="#home" id="home" target="_blank">Home</a></li>
+    <li class="mobile__menu"><a href="#services" id="services" target="_blank">Services</a></li>
+    <li class="mobile__menu"><a href="#details" id="contacts" target="_blank">Contacts</a></li>
+    <li class="mobile__menu"><a href="#work" id="project" target="_blank">Project</a></li>
+    <li class="mobile__menu"><a href="#Download-cv" id="download-cv" target="download">Download-cv</a></li>
+    </ul>
+    </nav>
+    <div class="hamburger" id="hamburger" onclick="burgerClick()"><span>&#9776;</span></div>
+</header>
+</section>
+<!--header section ends here-->
+   
+        <!--about section-->
+        <section id="about">
+         <div class="profile">
+            <div class="profile__info">
+                <div class="profile___info__size"
+                <h3 id="hello">Hello!</h3>
+                <h2 class="name__heading">My name is Teramola Oluwatuyi</h2>
+                <p class="role-heading">I'm a front end web developer</p>
+                <h3 class="profile__paragraph">I craft out simple and beautiful interfaces for business owners and companies</p>     
+                <button type="submit" class="btm-work">My work</button>
+            </div>
+        
+            <div class="profile__image">
+                <img src="Tera.jpg" class="profile-pix">
+            </div>
+         </div>
+        </section>
+        <!--- about section ends here-->
+
+        <section  id="works">
+            <div class="works">
+            <h2 class="section__head">What I do</h2>
+            <div class="works__services">
+                <div class="services">
+                    <h2 class="works__title">Front end development</h1>
+                    <p class="services__text">I am currently a front end developer and still learning the basics of programming/coding.</p>
+                </div>
+            
+                <div class="services">
+                    <h2 class="works__title">Game development</h2>
+                    <p class="services__text">I am currently in the process of becoming a game developer and have actually made a some games in a few of the coding softwares I use.</p>
+                </div>
+                <div class="services">
+                    <h2 class="works__title">Student</h2>
+                    <p class="services__text">I am also a student of the great school of BIS (British International School) in Nigeria and learning alot from it as I am proud of being a student of BIS.</p>
+                </div>
+            </div>
+        
+        </section>
+        
+        
+    <!--works section ends here-->
+        <section class="project" id="projects">
+
+         <h2 class="section__head" id="project">Recent work</h2>
+
+        <div class="project__wrapper">
+        <div class="project"><img src="Scratch image 2.png" class="project-picture"></div>
+        <div class="project"><img src="HTML calculator.jpg" class="project-picture"></div>
+        <div class="project"><img src="HTML and CSS Quiz .jpg" class="project-picture"></div>
+        </div>
+        </section>
+
+        <!--project section ends here-->
+        <footer>
+            <div class="contacts">
+
+            <div class="contacts__details">
+            <h3 class="contact__details__title">Contact me</h3></div>
+            <div class="contact__info">
+            <div class="contacts__info__text">
+                    <p>Email: ruzutuyi@gmail.com</p>
+                    <p>Phone: +234 809 770 0030</p>
+                    <p>Address: Nigeria Lagos Lekki Friends Colony Agungi</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                    <a href="https://youtube.com/channel/UCTAFm1AZ8HNysqjRCPUIMfA" class="fa fa-youtube"></a>
+                    <a href="https://www.linkedin.com/in/teramola-oluwatuyi-730999285/" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/TeramolaRuzAdven" class="fa fa-github"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    <div class="contact__form card" >
+                    <form method="post">
+                        <div class="form-control">
+                        <input type="text" class="input-form" placeholder="fullname" id="fullname">
+                    </div>
+                    <div class="form-control">
+                        <input type="text" class="input-form" placeholder="address" id="address">
+                    </div>
+                    <div class="form-control"
+                        <input type="text" class="input-form" placeholder="subject" id="subject"></div>
+                        <div class="form-control">
+                        <textarea id="message" name="message" rows="5" cols="24" placeholder="type your message here..."></textarea></div>
+                        <div>
+                        <button type="submit" class="contact__btn">Send</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        
+    <div class="copyright">&copy; 2023 | Developed by Teramola Oluwatuyi</div> 
+    <script src="script.js"></script>   
+</body>
+</html>
