@@ -56,16 +56,20 @@ header{
     display: none;
 }
 .mobile__menu__ul{
-    display: none;
+    display: block;
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: 0;
     height: 100dvh;
-    background-color: red;
+    background-color: rgb(152, 74, 152);
     opacity: 0.7;
     padding: 1rem;
 }
 
+.mobile__menu__li{
+    list-style: none;
+    padding: 2rem;
+}
 .menu-m{
     list-style-type: none;
     margin:  5rem 0;
@@ -90,6 +94,9 @@ header{
     margin-top: -1.5rem;
     margin-right: .8rem;
     
+}
+.hamburger:hover{
+    cursor:pointer;
 }
 #about, #works, #projects{
     padding: 3rem 8%;
@@ -416,4 +423,7 @@ footer{
     width: 50%;
 }
 
+}
+.mobile__menu__ul{
+    display: none;
 }
